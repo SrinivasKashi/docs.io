@@ -9,7 +9,7 @@
 - The best practice to avoid code and command injection vulnerabilities in GitHub workflows is to set the untrusted input value of the expression to an intermediate environment variable:
 
 ```
-- name: print title
+ name: print title
   env:
     TITLE: ${{ github.event.issue.title }}
   run: echo "$TITLE"
