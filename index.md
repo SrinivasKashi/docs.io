@@ -1,17 +1,19 @@
-###
+
 # Design Considerations
 
  
 ## For designing CI/CD using GitHub Actions we need to consider the standard used in the industry.
 
-### For general workflow design
+### For general workflow design : 
 
 - The best practice to avoid code and command injection vulnerabilities in GitHub workflows is to set the untrusted input value of the expression to an intermediate environment variable:
+
 ```
 - name: print title
   env:
     TITLE: ${{ github.event.issue.title }}
   run: echo "$TITLE"
+  
   ```
 -  CodeQL queries that can be integrated by repository owners into their CI/CD pipeline. Please note that currently the scripts depend on the CodeQL JavaScript libraries. 
 
