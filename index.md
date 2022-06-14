@@ -30,7 +30,7 @@
 
 
 ### References
-1. [https://securitylab.github.com/research/github-actions-untrusted-input/]
+1. [https://securitylab.github.com/research/github-actions-untrusted-input/] ( https://securitylab.github.com/research/github-actions-untrusted-input/ )
 2. [ https://securitylab.github.com/research/github-actions-preventing-pwn-requests/]
 3. [ https://securitylab.github.com/research/github-actions-building-blocks/ ]
 
